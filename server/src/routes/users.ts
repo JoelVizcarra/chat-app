@@ -1,5 +1,4 @@
 import { FastifyInstance } from "fastify";
-import { send } from "process";
 import { StreamChat } from "stream-chat";
 
 const streamChat = StreamChat.getInstance(

@@ -3,7 +3,6 @@ import { useNavigate } from "react-router-dom";
 import { ChannelListMessengerProps, useChatContext } from "stream-chat-react";
 import cx from "classnames";
 import Button from "../Button";
-import { logChatPromiseExecution } from "stream-chat";
 import { useLoggedInAuth } from "../../context/AuthContext";
 
 const Channels = ({ loadedChannels }: ChannelListMessengerProps) => {
