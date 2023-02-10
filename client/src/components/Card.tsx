@@ -2,11 +2,11 @@ import React, { ReactNode } from "react";
 import cx from "classnames";
 
 type CardProps = {
-  fullScreen: boolean;
+  fullScreen?: boolean;
   children: ReactNode;
 };
 
-const Card = ({ fullScreen, children }: CardProps) => {
+const Card = ({ fullScreen = false, children }: CardProps) => {
   return (
     <div
       className={cx("flex justify-center items-center bg-gray-100", {
